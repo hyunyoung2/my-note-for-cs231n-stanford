@@ -3,6 +3,118 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_video/lecture01/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_video/lecture02/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_video/lecture03/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_video/lecture04/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_video/lecture05/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_video/lecture06/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_video/lecture07/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_video/lecture08/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_video/lecture09/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_video/lecture10/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_video/lecture11/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_video/lecture12/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_video/lecture13/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_video/lecture14/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_video/lecture15/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_video/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_note/note01_image_classification/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_note/note02/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_note/note03/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_note/note04/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_note/note05/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_note/note06/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_note/note07/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_note/note08/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_note/note09/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_note/note10/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_note/note11/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_note/</loc>
+  </url>
+  
+  <url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/content-organisation/logo/</loc>
     <lastmod>2017-04-24T18:36:24+02:00</lastmod>
   </url>
@@ -58,11 +170,6 @@
   </url>
   
   <url>
-    <loc>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/</loc>
-    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/create-page/myslide/</loc>
     <lastmod>2017-04-24T18:36:24+02:00</lastmod>
   </url>
@@ -83,6 +190,10 @@
   </url>
   
   <url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/shortcodes/children/children-1/</loc>
+  </url>
+  
+  <url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/categories/</loc>
     <priority>0</priority>
   </url>
@@ -93,6 +204,11 @@
   
   <url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/content-organisation/customize-style/disable/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/</loc>
+    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
   </url>
   
   <url>
@@ -163,10 +279,6 @@
   
   <url>
     <loc>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/shortcodes/notice/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/shortcodes/children/children-1/</loc>
   </url>
   
   <url>

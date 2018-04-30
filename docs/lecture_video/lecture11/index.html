@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>my note for CS231n of stanford</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="generator" content="Hugo 0.40.1" />
+<title>Lecture 1 : Introduction :: my note for CS231n of stanford</title>
+<link rel="shortcut icon" href="/my-note-for-cs231n-stanford/images/favicon.png" type="image/x-icon" />
+<link href="/my-note-for-cs231n-stanford/css/font-awesome.min.css" rel="stylesheet">
+<link href="/my-note-for-cs231n-stanford/css/nucleus.css" rel="stylesheet">
+<link href="/my-note-for-cs231n-stanford/theme-flex/style.css" rel="stylesheet">
+
+<link rel="stylesheet" href="/my-note-for-cs231n-stanford/css/bootstrap.min.css">
+<script src="/my-note-for-cs231n-stanford/js/jquery-2.x.min.js"></script>
+<script type="text/javascript">
+      var baseurl = "https:\/\/hyunyoung2.github.io\/my-note-for-cs231n-stanford\/";
+</script>
+
+<link href="/my-note-for-cs231n-stanford/css/YouTubeByHyun.css" rel="stylesheet">
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-110793901-6', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+    
+  </head>
+  <body data-url="/my-note-for-cs231n-stanford/lecture_video/lecture11/">
+    
+      <header>
+  <div class="logo">
+    
+	
+  
+    <p>DocDock Documentation</p>
+
+  
+
+  </div>
+  <div class="burger"><a href="javascript:void(0);" style="font-size:15px;">&#9776;</a></div>
+    <nav class="shortcuts">
+            <li class="" role="">
+                <a href="https://github.com/hyunyoung2/my-note-for-cs231n-stanford"  rel="noopener">
+                  <i class='fa fa-github'></i>My note for CS231n of stanford Github repo
+                </a>
+            </li>
+            <li class="" role="">
+                <a href="/my-note-for-cs231n-stanford/showcase"  rel="noopener">
+                  <i class='fa fa-camera'></i> Showcases
+                </a>
+            </li>
+            <li class="" role="">
+                <a href="https://gohugo.io/"  rel="noopener">
+                  <i class='fa fa-bookmark'></i> Hugo Documentation
+                </a>
+            </li>
+            <li class="" role="">
+                <a href="/my-note-for-cs231n-stanford/credits"  rel="noopener">
+                  <i class='fa fa-bullhorn'></i> Credits
+                </a>
+            </li>
+    </nav>
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+          <li data-nav-id="/my-note-for-cs231n-stanford/" class="dd-item">
+          <a href="/my-note-for-cs231n-stanford/">
+            <i class="fa fa-fw fa-home"></i>
+          </a>
+          </li>
+    <li data-nav-id="/my-note-for-cs231n-stanford/lecture_video/" class="dd-item parent alwaysopen haschildren
+        ">
+      <div>
+      <a href="/my-note-for-cs231n-stanford/lecture_video/">Lecture Youtube</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/my-note-for-cs231n-stanford/lecture_video/lecture01/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/lecture_video/lecture01/">
+            Lecture 1 : Introduction
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/lecture_video/lecture02/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/lecture_video/lecture02/">
+            Lecture 1 : Introduction
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/lecture_video/lecture03/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/lecture_video/lecture03/">
+            Lecture 1 : Introduction
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/lecture_video/lecture04/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/lecture_video/lecture04/">
+            Lecture 1 : Introduction
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/lecture_video/lecture05/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/lecture_video/lecture05/">
+            Lecture 1 : Introduction
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/lecture_video/lecture06/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/lecture_video/lecture06/">
+            Lecture 1 : Introduction
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/lecture_video/lecture07/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/lecture_video/lecture07/">
+            Lecture 1 : Introduction
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/lecture_video/lecture08/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/lecture_video/lecture08/">
+            Lecture 1 : Introduction
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/lecture_video/lecture09/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/lecture_video/lecture09/">
+            Lecture 1 : Introduction
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/lecture_video/lecture10/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/lecture_video/lecture10/">
+            Lecture 1 : Introduction
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/lecture_video/lecture11/" class="dd-item active">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/lecture_video/lecture11/">
+            Lecture 1 : Introduction
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/lecture_video/lecture12/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/lecture_video/lecture12/">
+            Lecture 1 : Introduction
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/lecture_video/lecture13/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/lecture_video/lecture13/">
+            Lecture 1 : Introduction
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/lecture_video/lecture14/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/lecture_video/lecture14/">
+            Lecture 1 : Introduction
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/lecture_video/lecture15/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/lecture_video/lecture15/">
+            Lecture 1 : Introduction
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/my-note-for-cs231n-stanford/lecture_note/" class="dd-item alwaysopen haschildren
+        ">
+      <div>
+      <a href="/my-note-for-cs231n-stanford/lecture_note/">Lecture note</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/my-note-for-cs231n-stanford/lecture_note/note01_image_classification/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/lecture_note/note01_image_classification/">
+            Note 1 : Image Classification
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/lecture_note/note02/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/lecture_note/note02/">
+            Note 1 : Image Classification
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/lecture_note/note03/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/lecture_note/note03/">
+            Note 1 : Image Classification
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/lecture_note/note04/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/lecture_note/note04/">
+            Note 1 : Image Classification
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/lecture_note/note05/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/lecture_note/note05/">
+            Note 1 : Image Classification
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/lecture_note/note06/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/lecture_note/note06/">
+            Note 1 : Image Classification
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/lecture_note/note07/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/lecture_note/note07/">
+            Note 1 : Image Classification
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/lecture_note/note08/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/lecture_note/note08/">
+            Note 1 : Image Classification
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/lecture_note/note09/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/lecture_note/note09/">
+            Note 1 : Image Classification
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/lecture_note/note10/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/lecture_note/note10/">
+            Note 1 : Image Classification
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/lecture_note/note11/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/lecture_note/note11/">
+            Note 1 : Image Classification
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/my-note-for-cs231n-stanford/getting-start/" class="dd-item alwaysopen haschildren
+        ">
+      <div>
+      <a href="/my-note-for-cs231n-stanford/getting-start/">Getting started</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/my-note-for-cs231n-stanford/getting-start/installation/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/getting-start/installation/">
+            Installation
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/getting-start/configuration/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/getting-start/configuration/">
+            Configuration
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/my-note-for-cs231n-stanford/create-page/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/my-note-for-cs231n-stanford/create-page/"><i class='fa fa-edit' ></i> Create Page</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/my-note-for-cs231n-stanford/create-page/homepage/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/create-page/homepage/">
+            Home page
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/create-page/page-images/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/create-page/page-images/">
+            About images
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/create-page/page-slide/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/create-page/page-slide/">
+            Present a Slide
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/my-note-for-cs231n-stanford/content-organisation/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/my-note-for-cs231n-stanford/content-organisation/">Content Organisation</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/my-note-for-cs231n-stanford/content-organisation/logo/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/content-organisation/logo/">
+            Logo placeholder
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/content-organisation/extramenu/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/content-organisation/extramenu/">
+            Extra menu entries
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+    <li data-nav-id="/my-note-for-cs231n-stanford/content-organisation/customize-style/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/my-note-for-cs231n-stanford/content-organisation/customize-style/">Customize website look and feel</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/my-note-for-cs231n-stanford/content-organisation/customize-style/disable/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/content-organisation/customize-style/disable/">
+            Disable features
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/content-organisation/customize-style/themestyle/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/content-organisation/customize-style/themestyle/">
+            Theme styles
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/content-organisation/customize-style/theme-variants/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/content-organisation/customize-style/theme-variants/">
+            Theme variants
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/my-note-for-cs231n-stanford/shortcodes/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/my-note-for-cs231n-stanford/shortcodes/">Shortcodes</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/my-note-for-cs231n-stanford/shortcodes/alert/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/shortcodes/alert/">
+            alert
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/shortcodes/attachments/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/shortcodes/attachments/">
+            attachments
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/shortcodes/button/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/shortcodes/button/">
+            button
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+    <li data-nav-id="/my-note-for-cs231n-stanford/shortcodes/children/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/my-note-for-cs231n-stanford/shortcodes/children/">children</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/my-note-for-cs231n-stanford/shortcodes/children/children-1/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/my-note-for-cs231n-stanford/shortcodes/children/children-1/">2016 youtube</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/my-note-for-cs231n-stanford/shortcodes/children/children-1/children-1-1/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/my-note-for-cs231n-stanford/shortcodes/children/children-1/children-1-1/">page 1-1</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/my-note-for-cs231n-stanford/shortcodes/children/children-1/children-1-1/children-1-1-1/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/my-note-for-cs231n-stanford/shortcodes/children/children-1/children-1-1/children-1-1-1/">page 1-1-1</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/my-note-for-cs231n-stanford/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/my-note-for-cs231n-stanford/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/">page 1-1-1-1</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/my-note-for-cs231n-stanford/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/children-1-1-1-1-1/" class="dd-item
+        ">
+      <div>
+      <a href="/my-note-for-cs231n-stanford/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/children-1-1-1-1-1/">page 1-1-1-1-1</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/my-note-for-cs231n-stanford/shortcodes/children/children-2/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/my-note-for-cs231n-stanford/shortcodes/children/children-2/">page 2</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/my-note-for-cs231n-stanford/shortcodes/children/children-2/test3/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/shortcodes/children/children-2/test3/">
+            page test 3
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/my-note-for-cs231n-stanford/shortcodes/children/children-3/" class="dd-item
+        ">
+      <div>
+      <a href="/my-note-for-cs231n-stanford/shortcodes/children/children-3/">page 3</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/shortcodes/children/test/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/shortcodes/children/test/">
+            page test
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/shortcodes/excerpt/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/shortcodes/excerpt/">
+            excerpt
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/shortcodes/excerpt-include/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/shortcodes/excerpt-include/">
+            excerpt-include
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/shortcodes/expand/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/shortcodes/expand/">
+            expand
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/shortcodes/icon/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/shortcodes/icon/">
+            icon
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/shortcodes/mermaid/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/shortcodes/mermaid/">
+            mermaid
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/shortcodes/notice/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/shortcodes/notice/">
+            notice
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/shortcodes/panel/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/shortcodes/panel/">
+            panel
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/my-note-for-cs231n-stanford/shortcodes/revealjs/" class="dd-item">
+        <div>
+          <a href="/my-note-for-cs231n-stanford/shortcodes/revealjs/">
+            revealjs
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/my-note-for-cs231n-stanford/search/" class="dd-item
+        ">
+      <div>
+      <a href="/my-note-for-cs231n-stanford/search/">About the Search Engine</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+
+
+
+
+    </ul>
+    <section><center>
+
+<a class="github-button" href="https://github.com/hyunyoung/my-note-for-cs231n-stanford/archive/master.zip" data-icon="octicon-cloud-download" aria-label="Download hyunyoung2/my-note-for-cs231n-stanford on GitHub">Download</a>
+
+
+<a class="github-button" href="https://github.com/hyunyoung2/my-note-for-cs231n-stanford" data-icon="octicon-star" data-show-count="false" aria-label="Star hyunyoung2/my-note-for-cs231n-stanford on GitHub">Star</a>
+
+
+<a class="github-button" href="https://github.com/hyunyoung2/my-note-for-cs231n-stanford/fork" data-icon="octicon-repo-forked" data-show-count="true" aria-label="Fork hyunyoung2/my-note-for-cs231n-stanford on GitHub">Fork</a>
+
+
+</center>
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+    </section>
+  </aside>
+  <section class="page">
+    
+    <div class="nav-select">
+      <center>Navigation : 
+        <select onchange="javascript:location.href = this.value;">
+          
+    <option value="/my-note-for-cs231n-stanford/lecture_video/" >
+   Lecture Youtube</option> 
+      <option value="/my-note-for-cs231n-stanford/lecture_video/lecture01/" >- Lecture 1 : Introduction</option>
+      <option value="/my-note-for-cs231n-stanford/lecture_video/lecture02/" >- Lecture 1 : Introduction</option>
+      <option value="/my-note-for-cs231n-stanford/lecture_video/lecture03/" >- Lecture 1 : Introduction</option>
+      <option value="/my-note-for-cs231n-stanford/lecture_video/lecture04/" >- Lecture 1 : Introduction</option>
+      <option value="/my-note-for-cs231n-stanford/lecture_video/lecture05/" >- Lecture 1 : Introduction</option>
+      <option value="/my-note-for-cs231n-stanford/lecture_video/lecture06/" >- Lecture 1 : Introduction</option>
+      <option value="/my-note-for-cs231n-stanford/lecture_video/lecture07/" >- Lecture 1 : Introduction</option>
+      <option value="/my-note-for-cs231n-stanford/lecture_video/lecture08/" >- Lecture 1 : Introduction</option>
+      <option value="/my-note-for-cs231n-stanford/lecture_video/lecture09/" >- Lecture 1 : Introduction</option>
+      <option value="/my-note-for-cs231n-stanford/lecture_video/lecture10/" >- Lecture 1 : Introduction</option>
+      <option value="/my-note-for-cs231n-stanford/lecture_video/lecture11/"  selected>- Lecture 1 : Introduction</option>
+      <option value="/my-note-for-cs231n-stanford/lecture_video/lecture12/" >- Lecture 1 : Introduction</option>
+      <option value="/my-note-for-cs231n-stanford/lecture_video/lecture13/" >- Lecture 1 : Introduction</option>
+      <option value="/my-note-for-cs231n-stanford/lecture_video/lecture14/" >- Lecture 1 : Introduction</option>
+      <option value="/my-note-for-cs231n-stanford/lecture_video/lecture15/" >- Lecture 1 : Introduction</option>
+  
+    <option value="/my-note-for-cs231n-stanford/lecture_note/" >
+   Lecture note</option> 
+      <option value="/my-note-for-cs231n-stanford/lecture_note/note01_image_classification/" >- Note 1 : Image Classification</option>
+      <option value="/my-note-for-cs231n-stanford/lecture_note/note02/" >- Note 1 : Image Classification</option>
+      <option value="/my-note-for-cs231n-stanford/lecture_note/note03/" >- Note 1 : Image Classification</option>
+      <option value="/my-note-for-cs231n-stanford/lecture_note/note04/" >- Note 1 : Image Classification</option>
+      <option value="/my-note-for-cs231n-stanford/lecture_note/note05/" >- Note 1 : Image Classification</option>
+      <option value="/my-note-for-cs231n-stanford/lecture_note/note06/" >- Note 1 : Image Classification</option>
+      <option value="/my-note-for-cs231n-stanford/lecture_note/note07/" >- Note 1 : Image Classification</option>
+      <option value="/my-note-for-cs231n-stanford/lecture_note/note08/" >- Note 1 : Image Classification</option>
+      <option value="/my-note-for-cs231n-stanford/lecture_note/note09/" >- Note 1 : Image Classification</option>
+      <option value="/my-note-for-cs231n-stanford/lecture_note/note10/" >- Note 1 : Image Classification</option>
+      <option value="/my-note-for-cs231n-stanford/lecture_note/note11/" >- Note 1 : Image Classification</option>
+  
+    <option value="/my-note-for-cs231n-stanford/getting-start/" >
+   Getting started</option> 
+      <option value="/my-note-for-cs231n-stanford/getting-start/installation/" >- Installation</option>
+      <option value="/my-note-for-cs231n-stanford/getting-start/configuration/" >- Configuration</option>
+  
+    <option value="/my-note-for-cs231n-stanford/create-page/" >
+   Create Page</option>
+    <option value="/my-note-for-cs231n-stanford/content-organisation/" >
+   Content Organisation</option>
+    <option value="/my-note-for-cs231n-stanford/shortcodes/" >
+   Shortcodes</option>
+    <option value="/my-note-for-cs231n-stanford/search/" >
+   About the Search Engine</option>
+
+
+
+        </select>
+      </center>
+    </div>
+      <div>
+        <div class="searchbox">
+          <input data-search-input id="search-by" type="text" placeholder="Search...">
+        </div>
+        <script type="text/javascript" src="/my-note-for-cs231n-stanford/js/lunr.min.js"></script>
+        <script type="text/javascript" src="/my-note-for-cs231n-stanford/js/auto-complete.js"></script>
+        <link href="/my-note-for-cs231n-stanford/css/auto-complete.css" rel="stylesheet">
+        <script type="text/javascript">
+          
+              var baseurl = "https:\/\/hyunyoung2.github.io\/my-note-for-cs231n-stanford\/";
+          
+        </script>
+        <script type="text/javascript" src="/my-note-for-cs231n-stanford/js/search.js"></script>
+      </div>
+    
+
+    <h1>Lecture 1 : Introduction</h1>
+    
+    
+    
+    <div class="expand">
+    <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fa fa-chevron-down' : 'fa fa-chevron-right';});});">
+        <i style="font-size:x-small;" class="fa fa-chevron-right"></i>
+        <span>
+        
+        
+        2017 version of Youtube
+        
+        </span>
+    </div>
+    <div class="expand-content" style="display: none;">
+<p><button class="btn  btn-info" type="button"  onclick="location.href='https:\/\/www.youtube.com\/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv'" > Youtube link of Satnford University School of Engineering </button></p>
+
+<p><link rel="stylesheet" href="/css/YouTubeByHyun.css"></p>
+
+<p><div class="notices note" ><p>This is from Youtube of Stanford University School of Engineering</p>
+</div></p>
+
+<div id="tutorial-section">
+
+ <div id="tutorial-title">lecture 1</div>
+
+<p><ul class="nav nav-pills">
+  <li class="active"><a data-toggle="tab" href="#short-tutorial">2017</a></li>
+  <!-- <li><a data-toggle="tab" href="#long-tutorial">2017</a></li> -->
+ </ul></p>
+
+<p><div class="tab-content">
+  <div id="short-tutorial" class="tab-pane fade in active">
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/vT1JzLTH4G4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+ <!-- <div id="long-tutorial" class="tab-pane fade"> -->
+ <!-- <iframe src="https://www.youtube.com/embed/fPY13maWKKE" frameborder="0" allowfullscreen></iframe>  -->
+ <!-- </div> -->
+ </div>
+</div></p>
+
+    </div>
+</div>
+
+<p><div class="expand">
+    <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fa fa-chevron-down' : 'fa fa-chevron-right';});});">
+        <i style="font-size:x-small;" class="fa fa-chevron-right"></i>
+        <span>
+        
+        
+        2016 version of Youtube
+        
+        </span>
+    </div>
+    <div class="expand-content" style="display: none;">
+<p><button class="btn  btn-info" type="button"  onclick="location.href='https:\/\/www.youtube.com\/channel\/UCPk8m_r6fkUSYmvgCBwq-sw'" > Youtube link of Andrej Karpathy </button></p>
+
+<p><button class="btn  btn-info" type="button"  onclick="location.href='https:\/\/www.youtube.com\/watch?v=g-PvXUjD6qg'" > Youtube link of Alex </button></p>
+
+<p><link rel="stylesheet" href="/css/YouTubeByHyun.css"></p>
+
+<p><div class="notices note" ><p>This is from YouTube1 of Andrej Karpathy or YouTube of from Alex.</p>
+</div></p>
+
+<div id="tutorial-section">
+
+ <div id="tutorial-title">lecture 1</div>
+
+<p><ul class="nav nav-pills">
+  <li class="active"><a data-toggle="tab" href="#short-tutorial">2016</a></li>
+  <!-- <li><a data-toggle="tab" href="#long-tutorial">2017</a></li> -->
+ </ul></p>
+
+<p><div class="tab-content">
+  <div id="short-tutorial" class="tab-pane fade in active">
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/NfnWJUyUJYU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+ <!-- <div id="long-tutorial" class="tab-pane fade"> -->
+ <!-- <iframe src="https://www.youtube.com/embed/fPY13maWKKE" frameborder="0" allowfullscreen></iframe>  -->
+ <!-- </div> -->
+ </div>
+</div></p>
+
+    </div>
+</div></p>
+
+
+    
+    
+        <div class="chevrons">
+    <div id="navigation">
+<a class="nav nav-prev" href="/my-note-for-cs231n-stanford/lecture_video/lecture10/" title="Lecture 1 : Introduction"> <i class="fa fa-chevron-left"></i><label>Lecture 1 : Introduction</label></a>
+    <a class="nav nav-next" href="/my-note-for-cs231n-stanford/lecture_video/lecture12/" title="Lecture 1 : Introduction" style="margin-right: 0px;"><label>Lecture 1 : Introduction</label><i class="fa fa-chevron-right"></i></a></div>
+  </div>
+
+  </section>
+</article>
+
+<footer>
+
+<div class="footline">
+    
+
+    
+
+  
+
+    <div class="github-link">
+      <a href="https://github.com/hyunyoung2/my-note-for-cs231n-stanford/edit/master/content/Lecture_Video/Lecture11.md" target="blank"><i class="fa fa-code-fork"></i>
+        Improve this page</a>
+    </div>
+  </div>
+
+
+	<div>
+
+
+  
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+  
+
+
+
+	</div>
+</footer>
+
+<script src="/my-note-for-cs231n-stanford/js/clipboard.min.js"></script>
+
+<link href="/my-note-for-cs231n-stanford/css/featherlight.min.css" rel="stylesheet">
+<script src="/my-note-for-cs231n-stanford/js/featherlight.min.js"></script>
+
+
+
+<script src="/my-note-for-cs231n-stanford/theme-flex/script.js"></script>
+
+    
+
+    
+    
+
+    
+  </body>
+</html>

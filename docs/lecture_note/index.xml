@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture note on my note for CS231n of stanford</title>
+    <link>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_note/</link>
+    <description>Recent content in Lecture note on my note for CS231n of stanford</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_note/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Note 1 : Image Classification</title>
+      <link>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_note/note01_image_classification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_note/note01_image_classification/</guid>
+      <description>  CS231n course note   Course note of CS231n 
+This is from course note of CS231N Convolutional Neural Networks for Visual Recoginition on 2016.
+
+Note1 : Image classification 
+  </description>
+    </item>
+    
+    <item>
+      <title>Note 1 : Image Classification</title>
+      <link>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_note/note02/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_note/note02/</guid>
+      <description>  CS231n course note   Course note of CS231n 
+This is from course note of CS231N Convolutional Neural Networks for Visual Recoginition on 2016.
+
+Note1 : Image classification 
+  </description>
+    </item>
+    
+    <item>
+      <title>Note 1 : Image Classification</title>
+      <link>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_note/note03/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_note/note03/</guid>
+      <description>  CS231n course note   Course note of CS231n 
+This is from course note of CS231N Convolutional Neural Networks for Visual Recoginition on 2016.
+
+Note1 : Image classification 
+  </description>
+    </item>
+    
+    <item>
+      <title>Note 1 : Image Classification</title>
+      <link>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_note/note04/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_note/note04/</guid>
+      <description>  CS231n course note   Course note of CS231n 
+This is from course note of CS231N Convolutional Neural Networks for Visual Recoginition on 2016.
+
+Note1 : Image classification 
+  </description>
+    </item>
+    
+    <item>
+      <title>Note 1 : Image Classification</title>
+      <link>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_note/note05/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_note/note05/</guid>
+      <description>  CS231n course note   Course note of CS231n 
+This is from course note of CS231N Convolutional Neural Networks for Visual Recoginition on 2016.
+
+Note1 : Image classification 
+  </description>
+    </item>
+    
+    <item>
+      <title>Note 1 : Image Classification</title>
+      <link>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_note/note06/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_note/note06/</guid>
+      <description>  CS231n course note   Course note of CS231n 
+This is from course note of CS231N Convolutional Neural Networks for Visual Recoginition on 2016.
+
+Note1 : Image classification 
+  </description>
+    </item>
+    
+    <item>
+      <title>Note 1 : Image Classification</title>
+      <link>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_note/note07/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_note/note07/</guid>
+      <description>  CS231n course note   Course note of CS231n 
+This is from course note of CS231N Convolutional Neural Networks for Visual Recoginition on 2016.
+
+Note1 : Image classification 
+  </description>
+    </item>
+    
+    <item>
+      <title>Note 1 : Image Classification</title>
+      <link>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_note/note08/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_note/note08/</guid>
+      <description>  CS231n course note   Course note of CS231n 
+This is from course note of CS231N Convolutional Neural Networks for Visual Recoginition on 2016.
+
+Note1 : Image classification 
+  </description>
+    </item>
+    
+    <item>
+      <title>Note 1 : Image Classification</title>
+      <link>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_note/note09/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_note/note09/</guid>
+      <description>  CS231n course note   Course note of CS231n 
+This is from course note of CS231N Convolutional Neural Networks for Visual Recoginition on 2016.
+
+Note1 : Image classification 
+  </description>
+    </item>
+    
+    <item>
+      <title>Note 1 : Image Classification</title>
+      <link>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_note/note10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_note/note10/</guid>
+      <description>  CS231n course note   Course note of CS231n 
+This is from course note of CS231N Convolutional Neural Networks for Visual Recoginition on 2016.
+
+Note1 : Image classification 
+  </description>
+    </item>
+    
+    <item>
+      <title>Note 1 : Image Classification</title>
+      <link>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_note/note11/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hyunyoung2.github.io/my-note-for-cs231n-stanford/lecture_note/note11/</guid>
+      <description>  CS231n course note   Course note of CS231n 
+This is from course note of CS231N Convolutional Neural Networks for Visual Recoginition on 2016.
+
+Note1 : Image classification 
+  </description>
+    </item>
+    
+  </channel>
+</rss>
