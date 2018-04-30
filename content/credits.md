@@ -3,18 +3,28 @@ title = "Credits"
 description = "contributors and packages used by hugo-theme-docdock"
 +++
 
-
 ## github contributors
 {{%ghcontributors "https://api.github.com/repos/hyunyoung2/my-note-for-cs231n-stanford/contributors?per_page=100" %}}
 
-### Other contributors
+
+### Other contribution
 <div class="ghContributors">
-    <div>
-      <img src="https://avatars2.githubusercontent.com/hyunyoung2" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
-      <label>@<a href="https://github.com/hunyoung2">hyunyoung2</a></label>
-      <span class="contributions">supports and advices</span>
-    </div>
+
+<div>
+<img src="https://avatars2.githubusercontent.com/hyunyoung2" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
+<label>@<a href="https://github.com/hyunyoung2">hyunyoung2</a></label>
+<span class="contributions">supports and advices</span>
 </div>
+
+<div>
+<img src="https://avatars1.githubusercontent.com/hyunyoung2" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
+<label>@<a href="https://github.com/hyunyoung2">hyunyoung2</a></label>
+<span class="contributions">Flex style based on facette documentation theme, <br>Thanks to @vbatoufflet</span>
+</div>
+
+</div>
+
+
 
 ## Packages and libraries
 * [Bootstrap](http://getbootstrap.com) - front-end framework
