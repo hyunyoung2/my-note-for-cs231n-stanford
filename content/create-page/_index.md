@@ -7,8 +7,8 @@ creatoremail = "valere.jeantet@gmail.com"
 lastmodifierdisplayname = "Valere JEANTET"
 lastmodifieremail = "valere.jeantet@gmail.com"
 tags = ["tag1","tag2"]
-weight = 10
-pre ="<i class='fa fa-edit'></i> "
+weight = 20
+pre ="<i class='fa fa-edit' ></i> "
 
 +++
 

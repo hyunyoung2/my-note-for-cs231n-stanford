@@ -1,7 +1,7 @@
 +++
 title = "Extra menu entries"
 date = "2017-04-29T18:36:24+02:00"
-Weight=2
+Weight=12
 +++
 
 You can define additional menu entries in the navigation menu without any link to content.
@@ -25,4 +25,4 @@ Example from the current website, **note the `pre` param** which allows you to i
 	weight = 2
 
 
-[{{% icon circle-arrow-right %}} Read more about hugo and menu here](https://gohugo.io/extras/menus/)
+[{{%icon circle-arrow-right%}} Read more about hugo and menu here](https://gohugo.io/extras/menus/)

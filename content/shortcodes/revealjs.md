@@ -20,7 +20,7 @@ Read more on [revealjs github repo](https://github.com/hakimel/reveal.js/#markdo
 * center
 
 
-{{< warning title="Important" >}}Even if the enclosed content is a mardown, use `<` shortcode notation instead of the `%` notation {{< /warning >}}
+{{%warning title="Important" %}}Even if the enclosed content is a mardown, use `<` shortcode notation instead of the `%` notation {{%/warning %}}
 
 ### Content formating and slide delimiters
 
@@ -28,7 +28,8 @@ Read more on [revealjs github repo](https://github.com/hakimel/reveal.js/#markdo
 
 ## Demo
 
-{{< revealjs theme="moon" progress="true" >}}
+
+{{<revealjs theme="moon" progress="true">}}
 
 # In the morning
 
@@ -69,6 +70,50 @@ ___
 
 ## Source :
 
-* [{{%icon "sunglasses" %}} click here to view raw content](https://raw.githubusercontent.com/vjeantet/hugo-theme-docdock/master/exampleSite/content/shortcodes/revealjs.md)
-editURL
+{{%expand "Show code ..."%}}
 
+```
+{{</*revealjs theme="moon" progress="true"*/>}}
+
+# In the morning
+
+___
+
+
+## Getting up
+
+- Turn off alarm
+- Get out of bed
+
+___
+
+## Breakfast
+
+- Eat eggs
+- Drink coffee
+
+---
+
+# In the evening
+
+___
+
+## Dinner
+
+- Eat spaghetti
+- Drink wine
+
+___
+
+## Going to sleep
+
+- Get in bed
+- Count sheep
+
+{{</*revealjs*/>}}
+
+```
+
+{{%/expand%}}
+
+* [{{%icon "sunglasses" %}} click here to view raw content](https://raw.githubusercontent.com/vjeantet/hugo-theme-docdock/master/exampleSite/content/shortcodes/revealjs.md)
